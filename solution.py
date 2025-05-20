@@ -98,3 +98,5 @@ try:
 finally:
     # Ensure the browser is closed
     driver.quit()
+
+# Note: Ensure you have the required packages installed:
