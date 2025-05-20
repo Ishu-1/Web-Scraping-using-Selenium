@@ -19,7 +19,7 @@ if not username or not password:
     raise ValueError("Username or password not set in environment variables.")
 
 # Set up the Chrome driver
-service = Service(executable_path=r"C:\Users\sujal\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe")
+service = Service(executable_path=r"C:\Users\Ishu\Downloads\chromedriver-win64\chromedriver-win64\chromedriver.exe")
 driver = webdriver.Chrome(service=service)
 
 root = "https://www.saucedemo.com/"
